@@ -18,3 +18,8 @@
   - 풀이 버전
     - ⓐ lambda expression & + operator
 
+4. Most Common Word
+- https://leetcode.com/problems/most-common-word/
+- 풀이 버전
+  - ⓐ list comprehension & Counter object
+
