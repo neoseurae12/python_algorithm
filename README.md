@@ -23,3 +23,16 @@
 - 풀이 버전
   - ⓐ list comprehension & Counter object
 
+5. [silver-4] ATM
+- https://www.acmicpc.net/problem/11399
+- 그리디, 정렬
+- 풀이 결과
+    - first trial : 너무 직관적으로 풀이함
+    - second trial : 좀 더 수학적으로 접근
+
+6. [level-1] 크레인 인형뽑기 게임
+- https://school.programmers.co.kr/learn/courses/30/lessons/64061
+- 스택
+- 풀이 결과
+    - first trial : 주어진 테스트케이스와 다른 비공개 테스트케이스 하나는 통과했지만, 나머지 테스트케이스들에 대해서는 실패함.
+    - second trial : 애초에 board의 (세로)줄에 인형이 들어있지 않은 케이스를 고려해주니까 전체 테스트케이스 통과함.
