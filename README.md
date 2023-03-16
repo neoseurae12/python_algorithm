@@ -37,3 +37,13 @@
     - first trial : 주어진 테스트케이스와 다른 비공개 테스트케이스 하나는 통과했지만, 나머지 테스트케이스들에 대해서는 실패함.
     - second trial : 애초에 board의 (세로)줄에 인형이 들어있지 않은 케이스를 고려해주니까 전체 테스트케이스 통과함.
         - 놓쳤던 테스트케이스 출처 : https://algoroot.tistory.com/75
+
+7. [silver-5] 그룹 단어의 개수
+- https://www.acmicpc.net/problem/1316
+- 문자열, 구현
+- 풀이 결과
+    - first trial : 첫 시도만에 통과. collections.Counter()를 사용해서 풀어봄. 디버그를 코드 옆에 실시간으로 주석 다는 식으로 하니까 더 잘 됐음.
+        - 참고 출처
+            - '입력' : https://happyeuni.tistory.com/18
+            - 'collections' : https://daco2020.tistory.com/m/229
+
