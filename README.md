@@ -47,3 +47,11 @@
             - '입력' : https://happyeuni.tistory.com/18
             - 'collections' : https://daco2020.tistory.com/m/229
 
+8. [silver-1] 1로 만들기 ver.2
+- https://www.acmicpc.net/problem/12852
+- Dynamic Programming
+- 풀이 결과
+    - first trial : '중복된' 계산이 발생한다는 점을 이용해서 dynamic programming의 memoization 기법으로 값을 재활용해야겠다는 생각을 했다.
+        - 참고 출처
+            - 'dynamic programming' : https://hongjw1938.tistory.com/47
+
