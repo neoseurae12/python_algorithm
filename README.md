@@ -55,3 +55,9 @@
         - 참고 출처
             - 'dynamic programming' : https://hongjw1938.tistory.com/47
 
+9. [level-2] 교점에 별 만들기
+- https://school.programmers.co.kr/tryouts/72046/challenges
+- 배열 > 2차원 배열
+- 풀이 결과
+  - first trial : line2에서 'ZeroDivisionError' 오류 발생
+  - 
