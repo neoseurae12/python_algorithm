@@ -60,4 +60,5 @@
 - 배열 > 2차원 배열
 - 풀이 결과
   - first trial : line2에서 'ZeroDivisionError' 오류 발생
+  - second trial : if 문 추가 => ZeroDivisionError 오류 해결
   - 

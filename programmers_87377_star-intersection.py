@@ -15,6 +15,8 @@ def solution(line):
             D = line[j][1]
             F = line[j][2]
 
+            if A * D - B * C == 0:  # prevent ZeroDivisionError
+                continue
             x = (B * F - E * D) / (A * D - B * C)
             y = (E * C - A * F) / (A * D - B * C)
 
@@ -64,7 +66,7 @@ def solution(line):
 
 
 line1 = [[2, -1, 4], [-2, -1, 4], [0, -1, 1], [5, -8, -12], [5, 8, 12]]
-line2 = [[0, 1, -1], [1, 0, -1], [1, 0, 1]]
+line2 = [[0, 1, -1], [1, 0, -1], [1, 0, 1]]  # ZeroDivisionError was produced --> fixed
 line3 = [[1, -1, 0], [2, -1, 0]]
 line4 = [[1, -1, 0], [2, -1, 0], [4, -1, 0]]
 
